@@ -74,7 +74,7 @@ function responsiveNavIcon(icon) {
     } else {
         document.getElementById("text-icon").innerHTML = `<img src="/img/logo.png" alt="logo" width="30"
         height="24" class="d-inline-block align-text-top">
-    Programming Nusantara`;
+     Codinglah Nusantara`;
     }
 }
 

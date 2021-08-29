@@ -46,6 +46,9 @@
         }
 
         @media screen and (max-width: 425px) {
+            .row>*{
+                padding-right: 0!important; 
+            }
             .container {
                 padding-right: 0.75rem;
                 padding-left: 0.75rem;
@@ -61,18 +64,18 @@
     <!-- Content -->
     <div class="content">
         <div class="row">
-            <div class="col-lg-10">
+            <div class="col-lg-9">
                 <div class="container">
                     <h2>Pengenalan Bahasa C</h2>
                     <div class="row">
-                        <div class="col-xl-9">
+                        <div class="col-xl-8">
                             <div class="byline">
                                 <address class="author">By <a rel="author" href="#">Arsal Fadilah</a> on <time pubdate
                                         datetime="2021-08-13" title="13 August 2021">13/08/2021</time></address>
                             </div>
                         </div>
                         <!-- Breadcumbs -->
-                        <div class="col-xl-3">
+                        <div class="col-xl-4">
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb">
                                     <li class="breadcrumb-item"><a href="#">C</a></li>
@@ -125,7 +128,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-2">
+            <div class="col-lg-3">
                 <p class="text-center">ADVERTISEMENT</p>
             </div>
         </div>

@@ -2,8 +2,7 @@
     <div class="container-fluid">
         <div class="font-effect-anaglyph">
             <a id="text-icon" class="navbar-brand" href="{{ url('/') }}"><img src="{{ asset('img/logo.png')}}"
-                    alt="logo" width="30" height="24" class="d-inline-block align-text-top"> Programming
-                Nusantara</a>
+                    alt="logo" width="30" height="24" class="d-inline-block align-text-top"> Codinglah </a>
         </div>
         <button id="toggler" class="navbar-toggler" type="button" data-mdb-toggle="collapse"
             data-mdb-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
