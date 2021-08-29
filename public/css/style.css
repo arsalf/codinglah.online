@@ -1,0 +1,432 @@
+/*
+Palette
+Purple
+#5E05C2
+Red Violet
+#D00A88
+Thunder
+#1E151C
+Spanish Green
+#83998A
+*/
+
+:root {
+    --nav-height: 70vh;
+    --btn-height: 30px;
+}
+
+
+/*============= Init Text ================ */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #fafafa;
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 0.7em;
+    background-color: #5E05C2;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: rgb(255, 0, 78);
+    background: linear-gradient(0deg, rgba(255, 0, 78, 1) 0%, rgba(108, 9, 121, 1) 50%, rgba(0, 212, 255, 1) 100%);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ff00a2;
+}
+
+.code {
+    font-family: 'Roboto Mono', monospace;
+}
+
+#content {
+    margin-top: var(--nav-height);
+    margin-bottom: var(--nav-height);
+}
+
+
+/*=====================================
+                NAVBAR
+=====================================*/
+
+nav.navbar {
+    background-color: #5E05C2;
+}
+
+.navbar-brand {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: bold;
+    margin-right: 0px;
+}
+
+.font-effect-anaglyph {
+    margin-right: 5px;
+}
+
+.navbar-collapse {
+    /* font-family: "Times New Roman", Times, serif; */
+}
+
+
+/* ========= Add Submenu Navbar ========*/
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: rgb(0, 0, 0);
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgb(255, 255, 255);
+}
+
+.btn-link {
+    color: #ffffff;
+}
+
+.fa-bars {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar-dark .navbar-toggler,
+.navbar-light .navbar-toggler {
+    color: #fff;
+    /* border: 2px solid black; */
+}
+
+li.active a.nav-link {
+    color: #fff!important;
+}
+
+a.nav-link.dropdown-toggle.dropdown-toggle-split {
+    padding-left: 0;
+}
+
+div.a-grup {
+    cursor: pointer;
+}
+
+.navbar {
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+
+
+/* ===== Button =======*/
+
+.btn.btn-primary {
+    color: #fff;
+    background-color: #D00A88;
+    border-color: #D00A88;
+}
+
+.btn.btn-primary.focus,
+.btn.btn-primary:focus {
+    color: #fff;
+    background-color: #ff44bb;
+    border-color: #ff44bb;
+    outline: none;
+    box-shadow: none;
+}
+
+.btn.btn-primary:hover {
+    color: #fff;
+    background-color: #ff44bb;
+    border-color: #ff44bb;
+    outline: none;
+    box-shadow: none;
+}
+
+.btn.btn-primary.active,
+.btn.btn-primary:active {
+    color: #fff;
+    background-color: #ff44bb;
+    border-color: #ff44bb;
+    outline: none;
+}
+
+.btn.btn-primary.active.focus,
+.btn.btn-primary.active:focus,
+.btn.btn-primary.active:hover,
+.btn.btn-primary:active.focus,
+.btn.btn-primary:active:focus,
+.btn.btn-primary:active:hover {
+    color: #fff;
+    background-color: #ff44bb;
+    border-color: #ff44bb;
+    outline: none;
+    box-shadow: none;
+}
+
+
+/*=========== Footer =========*/
+
+footer {
+    background-color: #D00A88;
+}
+
+footer .cc {
+    color: rgb(255, 255, 255);
+    background-color: #1E151C;
+}
+
+
+/* Style Tool Calculator */
+
+.Calculator .container.layout {
+    height: 100vh;
+}
+
+.container.title-cs {
+    padding-bottom: 17px;
+}
+
+.container.grid-calculator {
+    background-color: #00d2ff;
+    width: 45vh;
+    margin-bottom: 17px;
+    padding-bottom: 17px;
+}
+
+.container.main-calculator {
+    padding-top: 10px;
+}
+
+.display-cs {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.display-temp-cs {
+    background-color: rgba(0, 0, 0);
+    color: #fff;
+    font-size: small;
+}
+
+.btn-operator .btn-custom-cs {
+    background-color: #D00A88;
+    color: #fff;
+    border: 1px solid #1E151C;
+    width: 100vh;
+    padding: 7px;
+    font-size: medium;
+}
+
+.btn-custom-cs:hover {
+    background-color: #83998A;
+}
+
+@media screen and (max-width: 425px) {
+    .btn-operator .btn-custom-cs {
+        font-size: smaller;
+    }
+}
+
+
+/* style marque (text-running) */
+
+.scroll-left {
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+    background: yellow;
+    color: orange;
+    border: 1px solid orange;
+}
+
+.scroll-left p {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+    /* Starting position */
+    transform: translateX(100%);
+    /* Apply animation to this element */
+    animation: scroll-left 15s linear infinite;
+}
+
+
+/* Move it (define the animation) */
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+
+/* tambahan temmy */
+
+.gambar-terkait {
+    max-width: 960px;
+    max-height: 640px;
+}
+
+.cmain article.container {
+    padding-left: 20px;
+    padding-right: 40px;
+    padding-bottom: 2cm;
+}
+
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+
+.flip-card {
+    background: rgb(120, 0, 255);
+    background: linear-gradient(45deg, rgba(120, 0, 255, 1) 0%, rgba(0, 255, 255, 1) 50%, rgba(255, 0, 162, 1) 100%);
+    width: 300px;
+    height: 400px;
+    border: 1px solid transparent;
+    perspective: 1000px;
+    margin-bottom: 10px;
+    /* Remove this if you don't want the 3D effect */
+}
+
+
+/* This container is needed to position the front and back side */
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+
+/* Position the front and back side */
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    /* Safari */
+    backface-visibility: hidden;
+}
+
+
+/* Style the front side (fallback if image is missing) */
+
+.flip-card-front {
+    background-color: transparent;
+    color: black;
+}
+
+.flip-card-front img {
+    padding: 20px;
+}
+
+
+/* Style the back side */
+
+.flip-card-back {
+    background: transparent;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+
+/* STYLE HOME BELAJAR */
+
+
+/* Zoom Effect */
+
+.zoom-out {
+    padding: 0px;
+    transition: transform .2s;
+    /* Animation */
+    margin: 0 auto;
+}
+
+.zoom-out:hover {
+    transform: scale(0.9);
+}
+
+
+/* STYLE EXAMPLE CODE */
+
+.code>pre {
+    border: 1px solid rgb(255, 0, 191);
+    padding: 5px;
+    margin: 0;
+    margin-bottom: 15px;
+    overflow: auto;
+}
+
+pre>code {}
+
+.copy {
+    display: none;
+}
