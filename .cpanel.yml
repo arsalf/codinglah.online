@@ -1,5 +1,0 @@
----
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/ugr1wxfo/public_html
-    - /bin/cp -R /home/ugr1wxfo/public_html/codinglah.online $DEPLOYPATH
