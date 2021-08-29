@@ -1,9 +1,5 @@
 ---
- 
 deployment:
- 
- tasks:
- 
- - export DEPLOYPATH=/home/ugr1wxfo/public_html/codinglah.online
- 
- - /usr/bin/rsync -Paz * $DEPLOYPATH --delete
+  tasks:
+    - export DEPLOYPATH=/home/ugr1wxfo/public_html/codinglah.online
+    - /bin/cp -R images $DEPLOYPATH
