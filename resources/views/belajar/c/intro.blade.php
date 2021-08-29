@@ -45,10 +45,10 @@
             }
         }
 
-        @media screen and (max-width: 375px) {
+        @media screen and (max-width: 425px) {
             .container {
-                padding-right: 10px;
-                padding-left: 15px;
+                padding-right: 0.75rem;
+                padding-left: 0.75rem;
             }
         }
     </style>
