@@ -1,9 +1,6 @@
 <nav id="navbar" class="navbar navbar-expand-lg sticky-top navbar-dark">
     <div class="container-fluid">
-        <div class="font-effect-anaglyph">
-            <a id="text-icon" class="navbar-brand" href="{{ url('/') }}"><img src="{{ asset('img/logo.png')}}"
-                    alt="logo" width="30" height="24" class="d-inline-block align-text-top"> Codinglah </a>
-        </div>
+        <a id="text-icon" class="navbar-brand" href="{{ url('/') }}"> CODINGLAH </a>
         <button id="toggler" class="navbar-toggler" type="button" data-mdb-toggle="collapse"
             data-mdb-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
             aria-label="Toggle navigation" onclick="addBorder(this.id)">

@@ -67,20 +67,19 @@ function addBorder(click) {
         x.style.border = "";
 }
 
-function responsiveNavIcon(icon) {
-    if (icon.matches) {
-        document.getElementById("text-icon").innerHTML = `<img src="/img/logo.png" alt="logo" width="30"
-        height="24" class="d-inline-block align-text-top">`;
-    } else {
-        document.getElementById("text-icon").innerHTML = `<img src="/img/logo.png" alt="logo" width="30"
-        height="24" class="d-inline-block align-text-top">
-     Codinglah Nusantara`;
-    }
-}
+// function responsiveNavIcon(icon) {
+//     if (icon.matches) {
+//         document.getElementById("text-icon").innerHTML = `<img src="/img/logo.png" alt="logo" width="30"
+//         height="24" class="d-inline-block align-text-top">`;
+//     } else {
+//         document.getElementById("text-icon").innerHTML = `
+//      CODINGLAH `;
+//     }
+// }
 
-var text_icon = window.matchMedia("(max-width:370px)");
-responsiveNavIcon(text_icon);
-text_icon.addListener(responsiveNavIcon);
+// var text_icon = window.matchMedia("(max-width:370px)");
+// responsiveNavIcon(text_icon);
+// text_icon.addListener(responsiveNavIcon);
 
 function copyToClipboard(elemCopy, elemSucces) {
     var $temp = $("<input>");

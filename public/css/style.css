@@ -18,6 +18,11 @@ Spanish Green
 
 /*============= Init Text ================ */
 
+@font-face {
+    font-family: TESLA;
+    src: url('TESLA.TTF');
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -62,14 +67,19 @@ body {
                 NAVBAR
 =====================================*/
 
+#text-icon {
+    font-family: TESLA;
+}
+
 nav.navbar {
     background-color: #5E05C2;
 }
 
 .navbar-brand {
-    font-family: 'IBM Plex Mono', monospace;
-    font-weight: bold;
-    margin-right: 0px;
+    margin-top: 0.17rem;
+    margin-bottom: 0;
+    margin-right: .5rem;
+    margin-left: .75rem;
 }
 
 .font-effect-anaglyph {
