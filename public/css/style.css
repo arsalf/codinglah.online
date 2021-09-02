@@ -86,10 +86,6 @@ nav.navbar {
     margin-right: 5px;
 }
 
-.navbar-collapse {
-    /* font-family: "Times New Roman", Times, serif; */
-}
-
 
 /* ========= Add Submenu Navbar ========*/
 
@@ -434,8 +430,6 @@ footer .cc {
     margin-bottom: 15px;
     overflow: auto;
 }
-
-pre>code {}
 
 .copy {
     display: none;
