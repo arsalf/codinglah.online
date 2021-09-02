@@ -47,9 +47,9 @@
     
                     <div class="col-xl-8">
                         <div class="isi">
-                            <p>Duhh, gimana ya #caranya #bales chat #otomatis di #wa? gampang!. Tonton video ini sampai habisss karena ada penjelasan tentang cara menggunakan #script #whatsapp #bot. Gratis? Tentu #gratis dong. Bisa di #edit? tentu bisa asal cantumkan sumbernya yah. Siapa sumbernya ? Arsal Fadilah in Programming Nusantara. </p>
+                            <p>Duhh, gimana ya caranya bales chat otomatis di wa? gampang!. Tonton video ini sampai habisss karena ada penjelasan tentang cara menggunakan script whatsapp bot. Gratis? Tentu gratis dong. Bisa di edit? tentu bisa asal cantumkan sumbernya yah. Siapa sumbernya ? Arsal Fadilah in Programming Nusantara. </p>
 
-                            <p>Whatsaapp bot berguna untuk kalian yang sedang menjalankan #bisnis agar lebih #mudah dalam mengatasi klien atau customernya. Jadi, kita sebagai owner tidak perlu lagi membalas chat satu per satu #manual. Cukup jalankan script bot wa ini dan enjoooy!</p>
+                            <p>Whatsaapp bot berguna untuk kalian yang sedang menjalankan bisnis agar lebih #mudah dalam mengatasi klien atau customernya. Jadi, kita sebagai owner tidak perlu lagi membalas chat satu per satu manual. Cukup jalankan script bot wa ini dan enjoooy!</p>
 
                             <p>Link Clone/Download Script:<br>
                                 <a href="https://github.com/arsalf/Project-Wabot">https://github.com/arsalf/Project-Wabot</a></p>
