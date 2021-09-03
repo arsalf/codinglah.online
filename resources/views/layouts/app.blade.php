@@ -119,6 +119,20 @@
         
         <!-- Link Custom Css -->
         <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+        
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-GKN58Z4GL5"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+    
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+    
+            gtag('config', 'G-GKN58Z4GL5');
+        </script>
+        
         @yield('custom_style')
     </head>
     
