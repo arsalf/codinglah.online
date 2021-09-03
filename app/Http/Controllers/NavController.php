@@ -3,9 +3,6 @@
 namespace App\Http\Controllers;
 
 use App\Models\LinkHKarya;
-use App\Models\LinkHTantangan;
-use App\Models\Products;
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
 class NavController extends Controller
@@ -22,6 +19,18 @@ class NavController extends Controller
                     ->get();
 
         return view('belajar.home', ['collectionBahasa' => $data]);
+    }
+
+    function belajar_c(){
+        return view("belajar.c.intro");
+    }
+
+    function belajar_c_syntax(){
+        return view("belajar.c.syntax");
+    }
+
+    function belajar_c_output(){
+        return view("belajar.c.output");
     }
 
     function tantangan(){
@@ -65,11 +74,4 @@ class NavController extends Controller
         return view("layouts.coming_soon");
     }
 
-    function belajar_c(){
-        return view("belajar.c.intro");
-    }
-
-    function belajar_c_syntax(){
-        return view("belajar.c.syntax");
-    }
 }

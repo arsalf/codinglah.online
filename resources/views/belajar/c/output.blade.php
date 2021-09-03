@@ -71,7 +71,7 @@
         <div class="row">
             <div class="col-lg-9">
                 <div class="container">
-                    <h2>Basic Syntax Bahasa C</h2>
+                    <h2>Output Bahasa C</h2>
                     <div class="row">
                         <div class="col-xl-8">
                             <div class="byline">
@@ -85,7 +85,7 @@
                                 <ol class="breadcrumb">
                                     <li class="breadcrumb-item"><a href="#">C</a></li>
                                     <li class="breadcrumb-item"><a href="#">Basic</a></li>
-                                    <li class="breadcrumb-item active" aria-current="page">Syntax</li>
+                                    <li class="breadcrumb-item active" aria-current="page">Output</li>
                                 </ol>
                             </nav>
                         </div>
@@ -97,36 +97,22 @@
                     </div>
 
                     <h4>Pengertian</h4>
-                    <p>Syntax adalah sekumpulan aturan yang harus diikuti selama menulis sebuah program. Basic syntax di pemrograman bahasa C dibagi menjadi 4 bagian yaitu header file, main function, token dan komentar.</p>
-                    
-                    <h4>Header File</h4>
-                    <p>Header file diletakkan di bagian atas file sebelum modul-modul atau varibel di deklarasikan. Header file adalah sebuah intruksi yang digunakan untuk pemanggilan library di bahasa C. dengan menggunakan perintah :</p>        
+                    <p>Output (keluaran) dalam bahasa C digunakan untuk menampilkan angka atau text ke layar. Keyword output yang digunakan di bahasa C yaitu menggunakan <code>printf</code>. Keyword <code>printf</code> merupakan salah satu prosedur yang terdapat dalam file header <code>stdio.h</code>.</p>
+     
                     @php
                         $code = 1
                     @endphp
                     <!-- Code Example -->
                     <div class="example-code">
+                        <div class="code-header">
+                            <h4>Contoh :</h4>
+                        </div>
                         <div class="code">
                             <!-- Please write exact structures code -->
-                            <pre><code id="target-copy{{$code}}" class="language-c">#include&lt;stdio.h&gt</code></pre>
-                            <!-- Don't give space in the end of code pre -->
-                        </div>
-                        <div id="succes-copy{{$code}}" class="alert alert-success copy">
-                            Succes Copy Text!
-                        </div>
-                        <div class="copy-btn d-flex justify-content-center mb-3">
-                            <button class="btn btn-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy to Clipboard" onclick="copyToClipboard('#target-copy{{$code}}', 'succes-copy{{$code++}}')">Copy</button>
-                        </div>
-                    </div>
-                    <!-- End Code Example -->
+                            <pre><code id="target-copy{{$code}}" class="language-c">#include&lt;stdio.h&gt
 
-                    <h4>Main Function</h4>
-                    <p>Main function atau fungsi main adalah sebuah fungsi yang akan dipanggil pertama kali saat program dijalankan. Bentuk dari main function adalah sebagai berikut :</p>
-                    <!-- Code Example -->
-                    <div class="example-code">
-                        <div class="code">
-                            <!-- Please write exact structures code -->
-                            <pre><code id="target-copy{{$code}}" class="language-c">int main(){
+int main(){
+    printf("hello world");//menampilkan text hello world ke layar
     return 0;
 }</code></pre>
                             <!-- Don't give space in the end of code pre -->
@@ -139,46 +125,14 @@
                         </div>
                     </div>
                     <!-- End Code Example -->
-                    
-                    <h4>Token</h4>
-                    <p>Token adalah bagian-bagian dari bahasa c yang mempunyai fungsi-fungsi tertentu. Token dalam bahasa C dibagi menjadi 5 jenis yaitu sebagai berikut : </p>
-                    <ol>
-                        <li>Keyword : <code>for</code>, <code>while</code>, <code>if</code>, <code>else</code>, <code>break</code>, dsb</li>
-                        <li>Variabel : Penampung data yang mempunyai nama. Dimana untuk penamaan variabel terdapat aturan khusus.</li>
-                        <li>Konstanta : Nilai suatu data yang tidak akan berubah</li>
-                        <li>Punstuators : <code>[]</code>, <code>{}</code>, <code>;</code>, <code>*</code>, <code>=</code>, <code>,</code></li>
-                        <li>Operator : Symbol yang digunakan untuk operasi matematis.</li>
-                    </ol>
 
-                    <h4>Komentar</h4>
-                    <p>Komentar biasanya digunakan untuk mendeskripsikan suatu kode atau intruksi tertentu. Tujuannya agar mempermudah programmer dalam bekerja. Komentar tidak akan ikut dicompile menjadi sebuah program. Jadi, berhati-hatilah menggunakan komentar.</p>
-                    
-                    <p>Penulisan komentar dalam bahasa c adalah sebagai berikut :</p>
-                    <!-- Code Example -->
-                    <div class="example-code">
-                        <div class="code">
-                            <!-- Please write exact structures code -->
-                            <pre><code id="target-copy{{$code}}" class="language-c">//ini komentar satu baris
-ini bukan komentar
-/*ini
-komentar
-multiple
-baris
-*/</code></pre>
-                            <!-- Don't give space in the end of code pre -->
-                        </div>
-                        <div id="succes-copy{{$code}}" class="alert alert-success copy">
-                            Succes Copy Text!
-                        </div>
-                        <div class="copy-btn d-flex justify-content-center mb-3">
-                            <button class="btn btn-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy to Clipboard" onclick="copyToClipboard('#target-copy{{$code}}', 'succes-copy{{$code++}}')">Copy</button>
-                        </div>
-                    </div>
-                    <!-- End Code Example -->
+                    <p>Salinlah kode di atas dan tempelkan di IDE Anda. Kemudian jalankan programnya dan lihat apa yang terjadi. Pasti text "hello world" akan muncul di layar Anda.</p>
 
+                    <p>Kemudian coba hapus <code>#include &lt;stdio.h&gt</code>. Error akan muncul karena tidak ada library default yang tersedia jika tidak dipanggil secara manual</p>
+                    
                     <div class="alert alert-primary">
                         <div class="d-flex justify-content-center">
-                            <a href="{{url('belajar/c/output')}}"><button class="btn btn-primary">
+                            <a href="#"><button class="btn btn-primary">
                                     Lanjut ke tahap berikutnya
                                 </button></a>
                         </div>

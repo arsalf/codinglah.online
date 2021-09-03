@@ -99,6 +99,7 @@ Route::get('/karya/games', [NavController::class, 'karya_games']);
 Route::get('/belajar', [NavController::class, 'belajar']);
 Route::get('/belajar/c/intro', [NavController::class, 'belajar_c']);
 Route::get('/belajar/c/syntax', [NavController::class, 'belajar_c_syntax']);
+Route::get('/belajar/c/output', [NavController::class, 'belajar_c_output']);
 
 /*
     Not Found Page <=> COMING SOON

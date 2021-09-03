@@ -10,7 +10,8 @@
         <h5><b>Basic</b></h5>
         <a class="{{ Request::is('belajar/c/intro') ? 'active' : ''}}" href="{{url('/belajar/c/intro')}}">Pengenalan</a>
         <a class="{{ Request::is('belajar/c/syntax') ? 'active' : ''}}" href="{{url('/belajar/c/syntax')}}">Syntax</a>
-        <a href="#">Output</a>
+        <a class="{{ Request::is('belajar/c/output') ? 'active' : ''}}" href="{{url('/belajar/c/output')}}">Output</a>
+        <a href="#">Variabel</a>
         <a href="#">Input</a>
         <a href="#">Tipe Data</a>
         <a href="#">Operator</a>
