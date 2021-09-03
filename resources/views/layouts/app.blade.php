@@ -8,7 +8,7 @@
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        
+        <meta name="description" content="Programming Nusantara atau PROGUSA adalah salah satu website belajar bahasa pemrograman di Indonesia. PROGUSA melakukan pembelajaran dari dasar hingga menjadi profesional. PROGUSA memberikan materi-materi dalam bentuk text maupun video yang bisa di akses secara gratis oleh semua kalangan umat manusia di alam semesta ini.">
         <!-- CSRF Token -->
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
@@ -89,7 +89,8 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <meta name="description" content="Programming Nusantara atau PROGUSA adalah salah satu website belajar bahasa pemrograman di Indonesia. PROGUSA melakukan pembelajaran dari dasar hingga menjadi profesional. PROGUSA memberikan materi-materi dalam bentuk text maupun video yang bisa di akses secara gratis oleh semua kalangan umat manusia di alam semesta ini.">
+        
         <!-- CSRF Token -->
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
