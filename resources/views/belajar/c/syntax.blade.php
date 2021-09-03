@@ -101,19 +101,22 @@
                     
                     <h4>Header File</h4>
                     <p>Header file diletakkan di bagian atas file sebelum modul-modul atau varibel di deklarasikan. Header file adalah sebuah intruksi yang digunakan untuk pemanggilan library di bahasa C. dengan menggunakan perintah :</p>        
+                    @php
+                        $code = 1
+                    @endphp
                     <!-- Code Example -->
                     <div class="example-code">
                         <div class="code">
                             <!-- Please write exact structures code -->
-                            <pre><code id="target-copy" class="language-c">/*== This is Header ==*/
+                            <pre><code id="target-copy{{$code}}" class="language-c">/*== This is Header ==*/
 #include&lt;stdio.h&gt</code></pre>
                             <!-- Don't give space in the end of code pre -->
                         </div>
-                        <div id="succes-copy" class="alert alert-success copy">
+                        <div id="succes-copy{{$code}}" class="alert alert-success copy">
                             Succes Copy Text!
                         </div>
                         <div class="copy-btn d-flex justify-content-center mb-3">
-                            <button class="btn btn-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy to Clipboard" onclick="copyToClipboard('#target-copy', 'succes-copy')">Copy</button>
+                            <button class="btn btn-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy to Clipboard" onclick="copyToClipboard('#target-copy{{$code}}', 'succes-copy{{$code++}}')">Copy</button>
                         </div>
                     </div>
                     <!-- End Code Example -->
@@ -124,16 +127,16 @@
                     <div class="example-code">
                         <div class="code">
                             <!-- Please write exact structures code -->
-                            <pre><code id="target-copy2" class="language-c">int main(){
+                            <pre><code id="target-copy{{$code}}" class="language-c">int main(){
     return 0;
 }</code></pre>
                             <!-- Don't give space in the end of code pre -->
                         </div>
-                        <div id="succes-copy2" class="alert alert-success copy">
+                        <div id="succes-copy{{$code}}" class="alert alert-success copy">
                             Succes Copy Text!
                         </div>
                         <div class="copy-btn d-flex justify-content-center mb-3">
-                            <button class="btn btn-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy to Clipboard" onclick="copyToClipboard('#target-copy2', 'succes-copy2')">Copy</button>
+                            <button class="btn btn-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy to Clipboard" onclick="copyToClipboard('#target-copy{{$code}}', 'succes-copy{{$code++}}')">Copy</button>
                         </div>
                     </div>
                     <!-- End Code Example -->
@@ -154,7 +157,7 @@
                     <div class="example-code">
                         <div class="code">
                             <!-- Please write exact structures code -->
-                            <pre><code id="target-copy2" class="language-c">//ini komentar satu baris
+                            <pre><code id="target-copy{{$code}}" class="language-c">//ini komentar satu baris
 ini bukan komentar
 /*ini
 komentar
@@ -163,11 +166,11 @@ baris
 */</code></pre>
                             <!-- Don't give space in the end of code pre -->
                         </div>
-                        <div id="succes-copy2" class="alert alert-success copy">
+                        <div id="succes-copy{{$code}}" class="alert alert-success copy">
                             Succes Copy Text!
                         </div>
                         <div class="copy-btn d-flex justify-content-center mb-3">
-                            <button class="btn btn-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy to Clipboard" onclick="copyToClipboard('#target-copy2', 'succes-copy2')">Copy</button>
+                            <button class="btn btn-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy to Clipboard" onclick="copyToClipboard('#target-copy{{$code}}', 'succes-copy{{$code++}}')">Copy</button>
                         </div>
                     </div>
                     <!-- End Code Example -->
