@@ -8,8 +8,8 @@
     </div>
     <div class="collapse container mb-3" id="sidebarScroll">
         <h5><b>Basic</b></h5>
-        <a class="active" href="#">Pengenalan</a>
-        <a href="#">Syntax</a>
+        <a class="{{ Request::is('belajar/c/intro') ? 'active' : ''}}" href="{{url('/belajar/c/intro')}}">Pengenalan</a>
+        <a class="{{ Request::is('belajar/c/syntax') ? 'active' : ''}}" href="{{url('/belajar/c/syntax')}}">Syntax</a>
         <a href="#">Output</a>
         <a href="#">Input</a>
         <a href="#">Tipe Data</a>

@@ -68,4 +68,8 @@ class NavController extends Controller
     function belajar_c(){
         return view("belajar.c.intro");
     }
+
+    function belajar_c_syntax(){
+        return view("belajar.c.syntax");
+    }
 }
