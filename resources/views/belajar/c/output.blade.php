@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('title_page')
-    <title>Basic Syntax Bahasa C</title>
+    <title>Output Bahasa C</title>
 @endsection
 @section('custom_style')
     
@@ -129,7 +129,7 @@ int main(){
                     <p>Salinlah kode di atas dan tempelkan di IDE Anda. Kemudian jalankan programnya dan lihat apa yang terjadi. Pasti text "hello world" akan muncul di layar Anda.</p>
 
                     <p>Kemudian coba hapus <code>#include &lt;stdio.h&gt</code>. Error akan muncul karena tidak ada library default yang tersedia jika tidak dipanggil secara manual</p>
-                    
+
                     <div class="alert alert-primary">
                         <div class="d-flex justify-content-center">
                             <a href="#"><button class="btn btn-primary">
