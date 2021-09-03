@@ -18,25 +18,26 @@
             <article class="container">
                 <header>
                     <div class="row d-flex">
-                        <h1 class="col-md-7">Cara Membuat Project Laravel Menggunakan Composer di Windows 10 !!!</h1>
-                        <div class="col-md-3 offset-md-1">
+                        <div class="col-md-8">
+                            <h1>Cara Membuat Project Laravel Menggunakan Composer di Windows 10 !!!</h1>
+                        </div>
+                        <div class="col-md-4">
                             <!-- Breadcumbs / Path File -->
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb">
                                     <li class="breadcrumb-item"><a href="#">Tutorial</a></li>
-                                    <li class="breadcrumb-item"><a href="#">Konten</a></li>
-                                    <li class="breadcrumb-item active" aria-current="page">Laravel</li>
+                                    <li class="breadcrumb-item"><a href="#">Laravel</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">Install</li>
                                 </ol>
                             </nav>
                             <!-- End Breadcumbs -->
                         </div>
-                        <div class="byline col-md-9">
+                        <div class="byline col-md-12">
                             <address class="author">
                                 By <a rel="author" href="#">Arsal Fadilah</a> on 
                                 <time pubdatedatetime="2021-08-14" title="14 August 2021">14 August 2021</time>
                             </address>
                         </div>
-    
                     </div>
     
                 </header>

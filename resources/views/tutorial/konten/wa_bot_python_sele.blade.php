@@ -18,19 +18,21 @@
             <article class="container">
                 <header>
                     <div class="row d-flex">
-                        <h1 class="col-md-7">BOT Whatsapp Menggunakan Python Selenium !!!</h1>
-                        <div class="col-md-3 offset-md-1">
+                        <div class="col-md-8">
+                            <h1>BOT Whatsapp Menggunakan Python Selenium !!!</h1>
+                        </div>
+                        <div class="col-md-4">
                             <!-- Breadcumbs / Path File -->
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb">
                                     <li class="breadcrumb-item"><a href="#">Tutorial</a></li>
-                                    <li class="breadcrumb-item"><a href="#">Konten</a></li>
-                                    <li class="breadcrumb-item active" aria-current="page">Python</li>
+                                    <li class="breadcrumb-item"><a href="#">Python</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">WA BOT Selenium</li>
                                 </ol>
                             </nav>
                             <!-- End Breadcumbs -->
                         </div>
-                        <div class="byline col-md-9">
+                        <div class="byline col-md-12">
                             <address class="author">
                                 By <a rel="author" href="#">Arsal Fadilah</a> on 
                                 <time pubdatedatetime="2021-09-02" title="02 Sept 2021">02 Sept 2021</time>
