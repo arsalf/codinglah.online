@@ -108,8 +108,7 @@
                     <div class="example-code">
                         <div class="code">
                             <!-- Please write exact structures code -->
-                            <pre><code id="target-copy{{$code}}" class="language-c">/*== This is Header ==*/
-#include&lt;stdio.h&gt</code></pre>
+                            <pre><code id="target-copy{{$code}}" class="language-c">#include&lt;stdio.h&gt</code></pre>
                             <!-- Don't give space in the end of code pre -->
                         </div>
                         <div id="succes-copy{{$code}}" class="alert alert-success copy">
