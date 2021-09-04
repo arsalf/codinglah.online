@@ -93,7 +93,7 @@
                     </div>
 
                     <div class="d-flex justify-content-center mb-3">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/RrWJSrWf3IM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/-HVB0PrDkr0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
 
                     <h4>Pengertian</h4>
