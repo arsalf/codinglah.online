@@ -132,7 +132,7 @@ int main(){
 
                     <div class="alert alert-primary">
                         <div class="d-flex justify-content-center">
-                            <a href="#"><button class="btn btn-primary">
+                            <a href="{{url('belajar/c/variabel')}}"><button class="btn btn-primary">
                                     Lanjut ke tahap berikutnya
                                 </button></a>
                         </div>

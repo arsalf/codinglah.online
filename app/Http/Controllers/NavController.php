@@ -32,6 +32,10 @@ class NavController extends Controller
     function belajar_c_output(){
         return view("belajar.c.output");
     }
+    
+    function belajar_c_var(){
+        return view("belajar.c.variabel");
+    }
 
     function tantangan(){
         $dataLink = DB::table('link_h_tantangan')

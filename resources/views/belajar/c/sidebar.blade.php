@@ -11,21 +11,21 @@
         <a class="{{ Request::is('belajar/c/intro') ? 'active' : ''}}" href="{{url('/belajar/c/intro')}}">Pengenalan</a>
         <a class="{{ Request::is('belajar/c/syntax') ? 'active' : ''}}" href="{{url('/belajar/c/syntax')}}">Syntax</a>
         <a class="{{ Request::is('belajar/c/output') ? 'active' : ''}}" href="{{url('/belajar/c/output')}}">Output</a>
-        <a href="#">Variabel</a>
-        <a href="#">Input</a>
-        <a href="#">Tipe Data</a>
-        <a href="#">Operator</a>
-        <a href="#">Condition</a>
-        <a href="#">Loop</a>
+        <a class="{{ Request::is('belajar/c/variabel') ? 'active' : ''}}" href="{{url('/belajar/c/variabel')}}">Variabel</a>
+        <a href="{{url('coming_soon')}}">Tipe Data</a>
+        <a href="{{url('coming_soon')}}">Input</a>
+        <a href="{{url('coming_soon')}}">Operator</a>
+        <a href="{{url('coming_soon')}}">Condition</a>
+        <a href="{{url('coming_soon')}}">Loop</a>
         <h5><b>Intermediate</b></h5>
-        <a href="#">Tipe Data Abstract</a>
-        <a href="#">Modular Programming</a>
-        <a href="#">Fungsi</a>
-        <a href="#">Prosedur</a>
+        <a href="{{url('coming_soon')}}">Tipe Data Abstract</a>
+        <a href="{{url('coming_soon')}}">Modular Programming</a>
+        <a href="{{url('coming_soon')}}">Fungsi</a>
+        <a href="{{url('coming_soon')}}">Prosedur</a>
         <h5><b>Professional</b></h5>
-        <a href="#">Write File</a>
-        <a href="#">Read File</a>
-        <a href="#">Sorting File</a>
+        <a href="{{url('coming_soon')}}">Write File</a>
+        <a href="{{url('coming_soon')}}">Read File</a>
+        <a href="{{url('coming_soon')}}">Sorting File</a>
     </div>
 </div>
 <script src="{{ asset('js/sidebar.js') }}"></script>
