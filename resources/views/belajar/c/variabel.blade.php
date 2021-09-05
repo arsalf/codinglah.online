@@ -182,7 +182,12 @@ umur = 10; //disini umur berubah menjadi 10</code></pre>
                 </div>
             </div>
             <div class="col-lg-3">
-                <p class="text-center">ADVERTISEMENT</p>
+                <div class="col">
+                    <p class="text-center">ADVERTISEMENT</p>
+                </div>
+                <div class="col">
+                    <a href="https://php.id/ref/24288" target="_blank"><img class="img-fluid" src="https://php.id/img/hosting-gratis/120x600.png"></a>
+                </div>
             </div>
         </div>
 
