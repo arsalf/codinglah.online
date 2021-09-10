@@ -102,6 +102,7 @@ Route::get('/belajar/c/intro', [NavController::class, 'belajar_c']);
 Route::get('/belajar/c/syntax', [NavController::class, 'belajar_c_syntax']);
 Route::get('/belajar/c/output', [NavController::class, 'belajar_c_output']);
 Route::get('/belajar/c/variabel', [NavController::class, 'belajar_c_var']);
+Route::get('/belajar/c/tipe_data', [NavController::class, 'belajar_c_type']);
 
 /*
     Not Found Page <=> COMING SOON

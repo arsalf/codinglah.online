@@ -12,7 +12,7 @@
         <a class="{{ Request::is('belajar/c/syntax') ? 'active' : ''}}" href="{{url('/belajar/c/syntax')}}">Syntax</a>
         <a class="{{ Request::is('belajar/c/output') ? 'active' : ''}}" href="{{url('/belajar/c/output')}}">Output</a>
         <a class="{{ Request::is('belajar/c/variabel') ? 'active' : ''}}" href="{{url('/belajar/c/variabel')}}">Variabel</a>
-        <a href="{{url('coming_soon')}}">Tipe Data</a>
+        <a href="{{url('belajar/c/tipe_data')}}">Tipe Data</a>
         <a href="{{url('coming_soon')}}">Input</a>
         <a href="{{url('coming_soon')}}">Operator</a>
         <a href="{{url('coming_soon')}}">Condition</a>

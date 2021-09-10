@@ -37,6 +37,10 @@ class NavController extends Controller
         return view("belajar.c.variabel");
     }
 
+    function belajar_c_type(){
+        return view("belajar.c.tipe_data");
+    }
+
     function tantangan(){
         $dataLink = DB::table('link_h_tantangan')
                     ->join('data_bahasa', 'data_bahasa.id', '=', 'link_h_tantangan.id_bahasa')
