@@ -74,6 +74,10 @@ class NavController extends Controller
         return view('tutorial.konten.wa_bot_python_sele');
     }
 
+    function install_cb(){
+        return view('tutorial.konten.install_cb');
+    }
+
     function coming_soon(){
         return view("layouts.coming_soon");
     }

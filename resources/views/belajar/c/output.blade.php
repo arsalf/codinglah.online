@@ -76,7 +76,7 @@
                         <div class="col-xl-8">
                             <div class="byline">
                                 <address class="author">By <a rel="author" href="#">Arsal Fadilah</a> on <time pubdate
-                                        datetime="2021-09-03" title="03 Sept 2021">03/09/2021</time></address>
+                                        datetime="2021-09-04" title="04 Sept 2021">04/09/2021</time></address>
                             </div>
                         </div>
                         <!-- Breadcumbs -->
@@ -137,6 +137,7 @@ int main(){
                                 </button></a>
                         </div>
                     </div>
+                    
                 </div>
             </div>
             <div class="col-lg-3">
