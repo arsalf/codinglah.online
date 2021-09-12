@@ -82,6 +82,10 @@ class NavController extends Controller
         return view('tutorial.konten.install_cb');
     }
 
+    function yt_api(){
+        return view('tutorial.konten.youtube_api_python');
+    }
+
     function coming_soon(){
         return view("layouts.coming_soon");
     }

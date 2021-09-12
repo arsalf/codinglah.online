@@ -87,6 +87,7 @@ Route::get('/tutorial', [NavController::class, 'tutorial']);
 Route::get('/tutorial/laravel/install_laravel', [NavController::class, 'install_laravel']);
 Route::get('/tutorial/python/bot_wa_python_sele', [NavController::class, 'wa_bot']);
 Route::get('/tutorial/c/install_codeblocks', [NavController::class, 'install_cb']);
+Route::get('/tutorial/python/yt_api_python', [NavController::class, 'yt_api']);
 
 #show tantangan page
 Route::get('/tantangan', [NavController::class, 'tantangan']);
